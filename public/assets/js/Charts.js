@@ -73,10 +73,9 @@ class ChartVacunas {
                     },
                     datalabels: {
                         display: true,
-                        backgroundColor: '#000',
-                        borderRadius: 3,
                         font: {
-                            size: 7,
+                            weight: 'bold',
+                            size  : 7,
                         },
                         formatter: (value, ctx) => {
                             let label = ctx.chart.data.labels[ctx.dataIndex] ;
@@ -89,7 +88,7 @@ class ChartVacunas {
 
                             let percentage = (value * 100 / sum).toFixed(2)+"%";
 
-                            return `${label} (${percentage})`;
+                            return `${percentage}`;
                         },
                         color: '#fff',
                     },

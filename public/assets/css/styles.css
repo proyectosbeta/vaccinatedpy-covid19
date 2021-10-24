@@ -9,6 +9,11 @@ body {
     text-align: center;
 }
 
+.subtitle {
+    font-size: 10px;
+    text-align: center;
+}
+
 .footer-basic {
     padding: 40px 0;
     background-color:#ffffff;
