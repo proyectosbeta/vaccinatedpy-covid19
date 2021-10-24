@@ -15,9 +15,9 @@ const colors = [
     "#2ECC40",
     "#FF851B",
     "#7FDBFF",
-    "#B10DC9",
+    "#EA899A",
     "#39CCCC",
-    "#85144b",
+    "#D3C1DD",
 ];
 
 const dataDosis1 = [
@@ -73,6 +73,7 @@ class ChartVacunas {
                     },
                     datalabels: {
                         display: true,
+                        color: '#000',
                         font: {
                             weight: 'bold',
                             size  : 7,
@@ -90,7 +91,6 @@ class ChartVacunas {
 
                             return `${percentage}`;
                         },
-                        color: '#fff',
                     },
                     legend: {
                         display : true,
