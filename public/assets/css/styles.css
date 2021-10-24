@@ -1,0 +1,10 @@
+body {
+    font-family: Roboto, Myriad Pro, Segoe UI;
+}
+
+.title {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    text-align: center;
+}
