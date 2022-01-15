@@ -21,28 +21,40 @@ const colors = [
 ];
 
 const dataDosis1 = [
-    827553,
-    23295,
-    101546,
-    125017,
-    221274,
-    1682753,
-    11830,
-    494783,
+    836068,
+    23364,
+    101552,
+    125053,
+    224116,
+    1692580,
+    11871,
+    495178,
 ];
-const totalDosis1 = '3.488.051';
+const totalDosis1 = '3.509.782';
 
 const dataDosis2 = [
-    614855,
-    21641,
-    93516,
-    120903,
-    194238,
-    1510515,
-    6366,
-    438496,
+    634663,
+    21739,
+    93529,
+    120939,
+    196418,
+    1527976,
+    6705,
+    442292,
 ];
-const totalDosis2 = '3.000.530';
+const totalDosis2 = '3.044.261';
+
+const dataDosis3 = [
+    280963,
+    244,
+    0,
+    45,
+    23244,
+    397326,
+    0,
+    0,
+];
+const totalDosis3 = '701.822';
 
 class ChartVacunas {
     constructor(ctx, title, data) {
@@ -119,4 +131,8 @@ const displatChartDosis1y2 = () => {
     const ctxDosis2 = document.getElementById('chartDosis2').getContext('2d');
     const titleDosis2 = `Dosis 2 (${totalDosis2})`;
     const chartDosis2 = new ChartVacunas(ctxDosis2, titleDosis2, dataDosis2);
+
+    const ctxDosis3 = document.getElementById('chartDosis3').getContext('2d');
+    const titleDosis3 = `Dosis refuerzo (${totalDosis3})`;
+    const chartDosis3 = new ChartVacunas(ctxDosis3, titleDosis3, dataDosis3);
 };
