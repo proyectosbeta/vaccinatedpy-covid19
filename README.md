@@ -5,7 +5,7 @@ Site that show graphics on Covid19 in Paraguay. The data were obtained from the 
 # Tecnologies
 
 - HTML, CSS and JavaScript
-- Bootrap 5.x
+- Boostrap 5.x
 - Chart JS 3.x
 
 # Site
