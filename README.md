@@ -1,6 +1,6 @@
 # Description
 
-Site that show graphics on Covid19 in Paraguay. The data were obtained from the [site](https://www.vacunate.gov.py/index-listado-vacunados.html)
+Site that show graphics on Covid19 in Paraguay. The data were obtained from the [site](https://datos.mspbs.gov.py/vacunados/)
 
 # Tecnologies
 
