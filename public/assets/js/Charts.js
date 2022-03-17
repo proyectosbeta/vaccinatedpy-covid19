@@ -7,6 +7,7 @@ const labels = [
     "Pfizer",
     "Sinopharm",
     "Sputnik V",
+    "Pfizer Pediatrica",
 ];
 
 const colors = [
@@ -18,43 +19,47 @@ const colors = [
     "#EA899A",
     "#39CCCC",
     "#D3C1DD",
+    "#A3D139",
 ];
 
 const dataDosis1 = [
-    860170,
-    202857,
-    101797,
-    125254,
-    226887,
-    1736103,
-    12073,
-    495641,
+    867928,
+    229401,
+    101785,
+    125321,
+    227152,
+    1752513,
+    12149,
+    495996,
+    43949,
 ];
-const totalDosis1 = '3.760.782';
+const totalDosis1 = '3.856.194';
 
 const dataDosis2 = [
-    684609,
-    21916,
-    93664,
-    121567,
-    201616,
-    1585003,
-    7721,
-    453124,
+    702939,
+    93278,
+    93752,
+    121668,
+    202063,
+    1614207,
+    8188,
+    454929,
+    61,
 ];
-const totalDosis2 = '3.169.220';
+const totalDosis2 = '3.291.085';
 
 const dataDosis3 = [
-    363648,
-    328,
+    396955,
+    353,
     0,
-    130,
-    25954,
-    624647,
+    181,
+    26203,
+    757826,
+    2,
     0,
     0,
 ];
-const totalDosis3 = '1.014.707';
+const totalDosis3 = '1.181.520';
 
 class ChartVacunas {
     constructor(ctx, title, data) {
